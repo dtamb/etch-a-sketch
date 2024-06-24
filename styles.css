@@ -1,0 +1,15 @@
+.pixel{
+    border: solid 2px black;
+    width: 15px;
+    height: 20px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+
+}
