@@ -14,3 +14,17 @@ function createGrid(){
 }
 
 createGrid();
+
+container.addEventListener("mouseover",(event)=>{
+    let target = event.target;
+    if (target.classList.value === "pixel"){
+        target.classList.toggle("colour");
+    };
+});
+
+container.addEventListener("mouseout",(event)=>{
+    let target = event.target;
+    if (target.classList.value === "pixel"){
+        target.classList.toggle("colour");
+    }
+});
