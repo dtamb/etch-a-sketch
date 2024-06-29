@@ -1,17 +1,35 @@
-.pixel{
-    border: solid 2px black;
-    width: 15px;
-    height: 20px; 
+body{
+    margin:0px;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.userInput{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    max-width: 960px;
+    min-height: 960px;
 }
 
 .row{
     display: flex;
+    flex: 1 1 auto;
+}
 
+
+.pixel{
+    border: solid 2px black;
+    flex: 1 1 auto;
 }
 
 .colour{
