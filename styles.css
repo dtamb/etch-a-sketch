@@ -17,8 +17,8 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    max-width: 960px;
-    min-height: 960px;
+    max-width: 840px;
+    min-height: 840px;
 }
 
 .row{
